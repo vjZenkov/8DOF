@@ -1,0 +1,28 @@
+group_name	type	group	render	open	0tx	0ty	0tz	0rx	0ry	0rz	controllers
+Pixel_Stage	lighting	1	1	1	8.28	20.9	1.2	0	0	0	/03
+Fill_Stage	lighting	2	1	1	0	0	0	0	0	0
+Pixel_Venue	lighting	3	1	1	-14.21	10.59	9.11	0	0	0	/01/00
+Fill_Venue	lighting	4	1	1	-5.13	0	2	0	0	90
+Blinders	lighting	5	1	1	5.26	0	2	0	0	-90
+Heads	lighting	6	1	1	8.36	6.75	9.75	0	0	0
+Heads setup	lighting	7	1	1	0	0	0	0	0	0
+FXs	lighting	8	1	1	0	6.56	5.29	0	0	0
+Stage_Screen	led_set	9	1	1	8.289998	20.72	0.6	0	0	0
+Side_Screens	led_set	10	1	1	0	0	0	0	0	0
+Fill_Screens	led_set	11	1	0	0	0	0	0	0	0
+3D_Objects	dif	12	1	0	0	0	0	0	0	0
+3D_Enviroment	dif	13	1	1	0	0	0	0	0	0
+Weather	dif	14	1	1	0	0	0	0	0	0
+CG_FX	dif	15	1	1	0	0	0	0	0	0
+2D	dif	16	1	1	0	0	0	0	0	0
+Cameras	cameras	17	1	1	0	0	0	0	0	0
+Stage_Sound	sound	18	0	1	8.09	16.86	0.09000001	0	0	0
+Surround_Sound	sound	19	1	1	0	0	0	0	0	0
+Universe_Int	enviroment	20	1	1	0	0	0	0	0	0
+Robots	system	21	1	1	0	0	0	0	0	0	/10/00/01
+Virtual_light	lighting	22	1	1	0	0	0	0	0	0
+Characters	system	23	1	1	0	0	0	0	0	0
+Mocap_Systems	system	24	1	1	0	0	0	0	0	0
+Projectors	system	25	1	0	0	0	0	0	0	0
+Venue_Setup	venue	99	1	0	0	0	0	0	0	0
+Studio_Setup	xr_set	100	1	0	0	0	0	0	0	0

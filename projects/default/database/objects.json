@@ -1,0 +1,145 @@
+obj_name	type	group	render	url	0tx	0ty	0tz	0rx	0ry	0rz	0sx	0sy	0sz	par1	par2	par3	sizex	sizey	level	controllers	world
+Tunnel	venue	99	0		-0.16	4.0	0.0	0.0	73.92	0.0	1	1	1				10	10	1		
+Club	venue	99	0		0.0														2		
+Expo	venue	99	0		0.0														3		
+Street	venue	99	0		0.0														4		
+Park	venue	99	0		0.0														5		
+Studio	venue	99	1		0.0														6		
+Cartoons	venue	99	0		0.0														7		
+Abstract	venue	99	0		0.0														8		
+Aparts	venue	99	0		0.0														9		
+Game	venue	99	0		0.0														10		
+Space	venue	99	0		0.0														11		
+Experiment	venue	99	0																12		
+Gallery	venue	99	0																13		
+BRO	venue	99	0																14		
+Lunapark	venue	99	0																15		
+Perform	venue	99	0																16		
+Tunnel_Spot_1	lighting	22	1		-0.97	-4	3.01	74	0	0							1	1	1		cg
+Tunnel_TableLamp	lighting	22	1		0	0	0	0	0	0									1		cg
+Tunnel_Ceillamps	lighting	22	1		0	-4	3.9	0	0	0	4	10	1				1	1	1		cg
+Tunnel_particles	cg	15	1		0	0	0	0	0	0	1	1	1	0	0	0	1	1	1		cg
+Beam_top_L1	lighting	6	1		-2.9	0	0	0	0	0	0	0	0	0	0	0	1	1	2	/01/00	virtual
+Beam_top_L2	lighting	6	1		-2.9	2	0	0	0	0	0	0	0	0	0	0	1	1	2	/00/01	virtual
+Beam_top_L3	lighting	6	1		-2.9	4	0	0	0	0	0	0	0	0	0	0	1	1	2	/00/01	virtual
+Beam_top_L4	lighting	6	1		-2.9	6	0	0	0	0	0	0	0	0	0	0	1	1	2	/00/01	virtual
+Beam_top_R1	lighting	6	1		2.9	0	0	0	0	0	0	0	0	0	0	0	1	1	2	/01/00	virtual
+Beam_top_R2	lighting	6	1		2.9	2	0	0	0	0	0	0	0	0	0	0	1	1	2	/01/00	virtual
+Beam_top_R3	lighting	6	1		2.9	4	0	0	0	0	0	0	0	0	0	0	1	1	2	/01/00	virtual
+Beam_top_R4	lighting	6	1		2.9	6	0	0	0	0	0	0	0	0	0	0	1	1	2	/00/01	virtual
+street_sky	cg	14	1		0	0	0	0	0	259.2000102996826	0	0	0	0	0	0	1	1	4		cg
+Street_wall_spot	lighting	22	1		10.41	-0.32	3.99	-9	0	0	0	0	0	0	0	0	1	1	4		cg
+Street_lamp1	lighting	22	1		16.54	-5.79	4.34	0	0	0	0	0	0	0	0	0	1	1	4		cg
+Street_lamp2	lighting	22	1		51.03	-8.01	28	3.03	7	0	0	0	0	0	0	0	1	1	4		cg
+Street_lamp3	lighting	22	1		39.92	-23.87	12	0	75	0	0	0	0	0	0	0	1	1	4		cg
+Street_screen	lighting	22	1		15.24	-24	5	90	0	0	8	4	1	0	0	0	1	1	4		cg
+Stage_Center_Screen	led_set	9	1		0	0	0	0	0	0	0	0	0	0	0	0	1	1	2		
+Stage_Left_Screen	led_set	9	1		-4.5	0	0	0	0	0	0	0	0	0	0	0	1	1	2		
+Stage_Right_Screen	led_set	9	1		4.5	0	0	0.16	0	0	0	0	0	0	0	0	1	1	2		
+Stage_Bar_L1	lighting	1	1		-2.85	0	0	-4.5	-90	90	0	0	0	0	0	0	1	1	2		virtual
+Stage_Bar_L2	lighting	1	1		-2.85	0	1	0	-90	90	0	0	0	0	0	0	1	1	2		virtual
+Stage_Bar_L3	lighting	1	1		-2.85	0	2	0	-90	90	0	0	0	0	0	0	1	1	2		virtual
+Stage_Bar_L4	lighting	1	1		-2.85	0	3	0	-90	90	0	0	0	0	0	0	1	1	2		virtual
+Stage_Bar_L5	lighting	1	1		-2.85	0	4	0	-90	90	0	0	0	0	0	0	1	1	2		virtual
+Stage_Bar_L6	lighting	1	1		-2.85	0	5	0	-90	90	0	0	0	0	0	0	1	1	2		virtual
+Stage_Bar_L7	lighting	1	1		-2.85	0	6	0	-90	90	0	0	0	0	0	0	1	1	2		virtual
+Stage_Bar_R1	lighting	1	1		2.85	0	0	0	-90	90	0	0	0	0	0	0	1	1	2		virtual
+Stage_Bar_R2	lighting	1	1		2.85	0	1	0	-90	90	0	0	0	0	0	0	1	1	2		virtual
+Stage_Bar_R3	lighting	1	1		2.85	0	2	0	-90	90	0	0	0	0	0	0	1	1	2	/00	virtual
+Stage_Bar_R4	lighting	1	1		2.85	0	3	0	-90	90	0	0	0	0	0	0	1	1	2		virtual
+Stage_Bar_R5	lighting	1	1		2.85	0	4	0	-90	90	0	0	0	0	0	0	1	1	2		virtual
+Stage_Bar_R6	lighting	1	1		2.85	0	5	0	-90	90	0	0	0	0	0	0	1	1	2		virtual
+Stage_Bar_R7	lighting	1	1		2.85	0	6	0	-90	90	0	0	0	0	0	0	1	1	2		virtual
+portal1	sound	18	1		-4.81	0	0	0	0	9.499987	0	0	0	0	0	0	1	1	2		
+portal2	sound	18	1		5	0	0	0	0	-20	0	0	0	0	0	0	1	1	2		
+Arri1	lighting	100	1		-2.52	-1	2	0.03	0	185	0	0	0	0	0	0	1	1	0		real
+Arri2	lighting	100	1		1.85	-1.21	2.25	0	0	-174	0	0	0	0	0	0	1	1	0		real
+Lab_Spot1	lighting	100	1		-1.8	3.2	2.4	0	0	0	0	0	0	0	0	0	1	1	0	/01/00	real
+Lab_Spot2	lighting	100	1		1.8	3.2	2.4	0	0	0	0	0	0	0	0	0	1	1	0	/00/01	real
+3x3_Led1	lighting	100	1		0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	/00	real
+3x3_Led2	lighting	100	1		0	0	0	0	0	0	0	0	0	0	0	0	1	1	0		real
+ChromaKey	system	100	1		0	0	0	0	0	0	2.5	3.5	1.8	0	0	0	0.2	0			
+AI	system	100	1		0	0	0	0	0	0	0	0	0	None	0	0					
+primitives	studio	100	1		-0.07	0.09000035	0.04000016	0	0.4000016	0.3000012	0	0	0	0	0	0	1	1	1		
+Test_box	studio	100	1		-1.29	6	0	0	0	0	1	1	1	0	0	0	0	0	0		
+Bender_1	artists	23	1		0	3.05	0.04	0	0	0	0	0	0	0	0	0	1	1	8		
+KinectV2_2	cameras	100	1		-6.000002	-0.93	2.37	0	41.19001	0	0	0	0	0	0	0	1	1	0		real
+Cartoon_env	lighting	22	1		0	0	0	0	0	0	0	0	0	0	0	0	1	1	11		cg
+Cartoon_sky	cg	22	1		0	0	0	0	0	0	0	0	0	0	0	0	0	0	11		cg
+kitty	mocap	23	1		3.11	-5.09	0.48	0	7.5	-84	0	0	0	0	0	0	1	1	11		
+duck	mocap	23	1		0	0	0	0	0	0	0	0	0	0	0	0	1	1	11		
+princess	mocap	23	1		-5.14	-17.96	-0.91	0	0	-12.49999	0	0	0	0	0	0	1	1	11		
+mouse	mocap	23	1		-14.09	-2.979999	-0.5	0	2.499999	47.49998	0	0	0	0	0	0	1	1	11		
+frog	mocap	23	1		-3.66	1.6	0.2	-6.500003	0	0	0	0	0	0	0	0	1	1	11		
+club_cooka_1	system	21	1		3.29	19.15	0	-2.5	0	0	0	0	0	0	0	0	1	1	2		
+DP_Robot1_Center	lighting	1	1		0	0	0	0	0	0	0	0	0	0	0	0	1	1	2		virtual
+DP_Robot1_left	lighting	1	1		-0.5	0	0	0	0	0	0	0	0	0	0	0	1	1	2		virtual
+DP_Robot1_Right	lighting	1	1		0.5	0	0	0	0	0	0	0	0	0	0	0	1	1	2		virtual
+DP_Robot1_Top	lighting	1	1		0	0.5	0	0	0	0	0	0	0	0	0	0	1	1	2		virtual
+DP_Robot1_Bottom	lighting	1	1		0	-0.5	0	0	0	0	0	0	0	0	0	0	1	1	2		virtual
+club_Common	lighting	22	1		8.61	10	12	0	0	0	0	0	0	0	0	0	1	1	2		cg
+club_Outside	lighting	22	1		24	11	10	-20	48	0	0	0	0	0	0	0	1	1	2		cg
+club_bar1	lighting	22	1		12.54	6	4	20	10	0	0	0	0	0	0	0	1	1	2		cg
+club_entrance	lighting	22	1		4	2	5.5	0	0	0	0	0	0	0	0	0	1	1	2		cg
+club_Table1_lamp	lighting	22	1		0	0	0	0	0	0	0	0	0	0	0	0	1	1	2		cg
+club_DJ_lamp	lighting	22	1		0	0	0	0	0	0	0	0	0	0	0	0	1	1	2		cg
+club_area_from_led	lighting	22	1		8.19	24.23	3.98	-90	0	0	10.8	6	1	0	0	0	1	1	2		cg
+club_enviroment	lighting	22	1		0	0	0	0	0	0	0	0	1	0	0	0	1	1	2		cg
+aparts_env	lighting	22	1		0	0	0	0	0	0	0	0	0	0	0	0	1	1	13		cg
+aparts_sky	cg	22	1		0	0	0	0	0	0	0	0	0	0	0	0	0	0	13		cg
+aparts_downlight1	lighting	22	1		-8.46	11.11	-2.37	-110.5	80	0	0	0	0	0	0	0	1	1	13		cg
+aparts_fromwindow	lighting	22	1		-0.25	26.42	5.13	-89.5	12.95	0	0	0	0	0	0	0	1	1	13		cg
+aparts_kitchen_spot1	lighting	22	1		-0.31	-2.99	2.95	0	0	0	0	0	0	0	0	0	1	1	13		cg
+aparts_kitchen_spot2	lighting	22	1		-1.73	-3.35	2.92	0	0	0	0	0	0	0	0	0	1	1	13		cg
+aparts_kitchen_spot3	lighting	22	1		-0.3	0.96	3.01	0	0	0	0	0	0	0	0	0	1	1	13		cg
+aparts_room1_spot1	lighting	22	1		-3.55	4.59	2.86	0	0	0	0	0	0	0	0	0	1	1	13		cg
+aparts_room1_spot2	lighting	22	1		2.83	3.57	2.56	0	0	0	0	0	0	0	0	0	1	1	13		cg
+aparts_tv	lighting	22	1		0.22	2.400001	0.91	-90	0	-90	1.6	1.6	1	0	0	0	1	1	13		cg
+sand_particles	cg	15	1		-0.42	1.86	0	0	0	0	1	1	1	0	0	0	1	1	12		cg
+Desert_sky	cg	14	1		0	0	0	0	0	0	0	0	0	0	0	0	0	0	12		cg
+camp_lamp	lighting	22	1		0	0	0	0	0	0	10	10	10	0	0	0	1	1	12		cg
+expo_top_dayArea	lighting	22	1		-8.65	14.59	16.82	0	2.5	1.500001	10	10	10	0	0	0	2	2	3		cg
+expo_topLamp1	lighting	22	1		-50	12	18	0	0	0	1	1	1	0	0	0	1	1	3		cg
+expo_topLamp2	lighting	22	1		-40	12	18	0	0	0	1	1	1	0	0	0	1	1	3		cg
+expo_topLamp3	lighting	22	1		-30	12	18	0	0	0	1	1	1	0	0	0	1	1	3		cg
+expo_topLamp4	lighting	22	1		-20	12	18	0	0	0	1	1	1	0	0	0	1	1	3		cg
+top_projectors	prjs	25	1		-40.12	13.54	3.29	-90	0	90	1	1	1	0	0	0	0	0	3		virtual
+lwall_projectros	prjs	25	1		0	0	0	0	0	0	1	1	1	0	0	0	0	0	3		virtual
+rwall_projectros	prjs	25	1		0	0	0	0	0	0	1	1	1	0	0	0	0	0	3		virtual
+360_ball	cg	100	1		0	0	0	0	0	0	1	1	1	0	0	0	0	0	16		cg
+particle_cloud	cg	15	1		0	0	0	0	0	0	1	1	1	0	0	0	0	0	15		cg
+space_env	lighting	22	1		0	0	0	0	0	0	1	1	1	0	0	0	0	0	15		cg
+space_projector	lighting	22	1		-0.09	-12	3	85.75	-23	7.070001	1	1	1	0	0	0	0	0	15		cg
+space_helmet1	lighting	22	1		0	0	0	0	0	90	1	1	1	0	0	0	0	0	15		cg
+astronaut1	mocap	23	1		0	0	0	0	0	0	1	1	1	0	0	0	0	0	15		cg
+landingbot_blink1	lighting	22	1		-4.63	1.439998	2.72	5.64	3.13	2.67	1	1	1	0	0	0	0	0	15		cg
+robot	mocap	23	1		0	0	0	0	0	0	1	1	1	0	0	0	0	0	0		cg
+gallery_spot1	lighting	22	1		4.010001	0	3	58.44	38.99	0	1	1	1	0	0	0	0	0	16		cg
+gallery_spot2	lighting	22	1		-2.939999	-1.01	4.75	33.69	-39.45	0	1	1	1	0	0	0	0	0	16		cg
+Central_Gallery_Screen	led_set	9	1		0	8	0	0	8.79	0	1	1	1	0	0	0	1	1	16		
+Left_Gallery_Screen	led_set	9	1		-7.45	0	0	0	0	90	1	1	1	0	0	0	1	1	16		
+Right_Gallery_Screen	led_set	9	1		7.49	0	0	0	0	-90	1	1	1	0	0	0	1	1	16		
+vr_brush	cg	15	1		0	0	0	0	0	0	1	1	1	0	0	0	1	1	16		cg
+3d_particles	cg	15	1		-0.42	1.86	0	0	0	0	1	1	1	0	0	0	1	1	16		cg
+abstract_sky	cg	14	1		0	0	0	0	0	57.59999871253967	1	1	1	0	0	0	0	0	8		cg
+l_tree	cg	15	1		0	2	0	0	0	0	1	1	1	0	0	0	0	0	8		cg
+garden_spot1	cg	22	1		36.69	-34.39	12.14	12.27	16.62	6.050001	1	1	1	0	0	0	0	0	8		cg
+garden_spot2	cg	22	1		31.61	-34.33	12.27	16.01	-18.76	0	1	1	1	0	0	0	0	0	8		cg
+garden_spot3	cg	22	1		17.28	-35.45	12.27	19.66	3.440001	0	1	1	1	0	0	0	0	0	8		cg
+garden_spot4	cg	22	1		17.25	-27.63	12.27	-18.12	-2	0	1	1	1		0	0	0	0	8		cg
+garden_spot5	cg	22	1		26	-31.83	12.27	0.1	0.06	0	1	1	1		0	0	0	0	8		cg
+gallery_fill1	cg	22	1		-0.02	86.4	10.07	-50.37	0	0	1	1	1		0	0	0	0	17		cg
+gallery_fill2	cg	22	1		-0.02	-85.7	10.07	50.37	0	0	1	1	1		0	0	0	0	17		cg
+gallery_outside	cg	22	1		-33.94	27.66	6.68	-17.5	-63.8	0	1	1	1		0	0	0	0	17		cg
+gallery_Screen1	led_set	1	1		0	-3.51	0.63	0	0	0	0	0	0	0	0	0	1	1	17		
+gallery_Screen2	led_set	1	1		2.01	-3	0.63	0	0	-90	0	0	0	0	0	0	1	1	17		
+gallery_Screen3	led_set	1	1		0	-2.49	0.63	0	0	180	0	0	0	0	0	0	1	1	17		
+gallery_Screen4	led_set	1	1		-2.01	-3	0.63	0	0	90	0	0	0	0	0	0	1	1	17		
+gallery_led_front	lighting	22	1		0.2100001	3.610002	1.640001	-90.5	-90.1	-0.8999998	4	4	4	0 	0	0	1	1	17		cg
+BRO_Spot1	lighting	17	1		0.35	-1.6	2.04	87.6	4.800003	0	0	0	0	0	0	0	1	1	18		cg
+BRO_Enviroment	lighting	17	1		0	0	0	0	0	 0	0	 0	0 	0	0	0	1	1	18		cg
+abstract_sky	cg	18	1		0	0	0	0	0	0	0	0	0	0	0	0	1	1	19		cg
+l_tree	cg	15	1		-2	0	2	0	0	0	1	1	1	0	0	0	0	0	10		cg
+stage1_sky	cg	14	1		0	0	0	0	0	259.2000102996826	0	0	0	0	0	0	1	1	4		cg
+etko_ledtubes_mesh	lighting	2	1		0	0	0	0	0	0	1	1	1	0	0	0	1	1	21		
+studio_spot1	lighting	22	1		6.320001	1.2	4	51.97	62.92	0	1	1	1	0	0	0	0	0	10		cg

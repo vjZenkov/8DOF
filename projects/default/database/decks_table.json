@@ -1,0 +1,9 @@
+id	name	type	play_state	play_item	opacity	red	green	blue	cue_enable	play_mode	au_enable	playlist_index	sample_rate	total_lenth	plugin	ignore	deck_type	auto_fader	color_index
+1	None	media	1.0	1.0	0.6699991226196289	1.0	0.43137254901960786	0.2549019607843137	0.0	5	1	4	30.0	900.0	Tech Fux.mov	1	playback	0	orange
+2	TD Generator	media	1.0	0.23170730471611023	0.08661417322834646	0.0	1.0	0.6745098039215687	0.0	3	1	3	25.0	1163.0	Simple_Geos	1	animator	0	mint
+7	GPU Render	media	0.0	0	1.0	0.4	0.4	1	0.0	1	0	1	1.0	1.0		1	3d	0	blue
+5	Diffusion	media	1.0	3	1.0	1.0	0.43137254901960786	0.2549019607843137	0.0	4	1	4	25.0	1941.0		1	ai	0	orange
+5	Setic	media	1.0	0	1.0	0.8235294117647058	0.19607843137254902	0.9607843137254902	0.0	0	1	6	25.0	5065.0		1	audio	0	purple
+4	Laser Fog	media	1.0	0	1.0	0.0	1.0	0.0	0.0	1	1	5	1.0	1.0		1	lighting	0	green
+8	Controller	media	1.0	0	1.0	1.0	0.8431372549019608	0.0	0.0	1	0	1	25.0	454.0		1	devices	0	warm_yellow
+6	All Cues	media	1.0	0	1.0	1.0	1.0	1.0	0.0	1	0	1	1.0	1.0	Script 1	1	caller	0	white
