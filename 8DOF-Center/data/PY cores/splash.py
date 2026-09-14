@@ -41,15 +41,15 @@ def render_custom_text(text, font_path, size, color):
         font = ImageFont.truetype(font_path, size)
     else:
         font = ImageFont.load_default()
-    
+
     bbox = font.getbbox(text)
     width = bbox[2] - bbox[0] + 10
     height = bbox[3] - bbox[1] + 10
-    
+
     img = Image.new("RGBA", (width, height), (0, 0, 0, 0))
     draw = ImageDraw.Draw(img)
     draw.text((0, 0), text, font=font, fill=color)
-    
+
     return ImageTk.PhotoImage(img)
 
 # --- Основные контейнеры ---
@@ -84,17 +84,17 @@ title_label.image = title_img
 title_label.pack(fill=tk.X, anchor="w", pady=(30, 5))
 
 # 2. Подзаголовок (Imagine, creat, play.)
-subtitle_img = render_custom_text("Imagine, creat, play.", FONT_PATH, 20, MUTED_TEXT_COLOR)
+subtitle_img = render_custom_text("Imagine, create, play.", FONT_PATH, 20, MUTED_TEXT_COLOR)
 subtitle_label = tk.Label(left_frame, image=subtitle_img, bg=BG_COLOR, anchor="w")
 subtitle_label.image = subtitle_img
 subtitle_label.pack(fill=tk.X, anchor="w", pady=(0, 40))
 
 # 3. Подпись статуса
 loading_label = tk.Label(
-    left_frame, 
-    text="Loading system...", 
-    fg=TEXT_COLOR, 
-    bg=BG_COLOR, 
+    left_frame,
+    text="Loading system...",
+    fg=TEXT_COLOR,
+    bg=BG_COLOR,
     font=("Helvetica", 10)
 )
 loading_label.pack(anchor="w", pady=(0, 5))
@@ -103,18 +103,18 @@ loading_label.pack(anchor="w", pady=(0, 5))
 style = ttk.Style()
 style.theme_use('default')
 style.configure(
-    "Custom.Horizontal.TProgressbar", 
-    troughcolor='#333333', 
-    background='#ffffff', 
-    thickness=4, 
+    "Custom.Horizontal.TProgressbar",
+    troughcolor='#333333',
+    background='#ffffff',
+    thickness=4,
     borderwidth=0
 )
 
 progress = ttk.Progressbar(
-    left_frame, 
-    orient="horizontal", 
-    length=280, 
-    mode="indeterminate", 
+    left_frame,
+    orient="horizontal",
+    length=280,
+    mode="indeterminate",
     style="Custom.Horizontal.TProgressbar"
 )
 progress.pack(anchor="w")
@@ -126,10 +126,10 @@ if os.path.exists(IMAGE_PATH):
     max_img_height = 400 # Масштабируем по всей доступной высоте окна
     aspect_ratio = img.width / img.height
     new_width = int(max_img_height * aspect_ratio)
-    
+
     img_resized = img.resize((new_width, max_img_height), Image.Resampling.LANCZOS)
     photo_img = ImageTk.PhotoImage(img_resized)
-    
+
     img_label = tk.Label(right_frame, image=photo_img, bg=BG_COLOR, anchor="e")
     img_label.image = photo_img
     img_label.pack(fill=tk.BOTH, anchor="e", expand=True)
@@ -139,7 +139,7 @@ def listen_for_td():
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     sock.bind(('127.0.0.1', 9000))
     sock.settimeout(1.0)
-    
+
     while True:
         try:
             data, _ = sock.recvfrom(1024)
